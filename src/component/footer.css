@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 380px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-container {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-form {
+    display: flex;
+}
+
+.email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: 1px solid #ff4d68;
+    background-color: transparent;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #D23166;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.subscribe-button:hover {
+    background-color: #ff1c4c;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer__card p {
+    color: white;
+    width: 207px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.1rem;
+    opacity: 80%;
+    margin-top: 1rem;
+}
+
+.footer__card h6 {
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+.footer__card div {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer__card-one ol {
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+.footer__card-one ol li a{
+    color: white;
+    font-size: 13px;
+}
+
+.footer__card-one ol li a:hover {
+    color: #ff4d68;
+}
+
+.footer__card-two ol {
+    line-height: 1.4rem;
+    margin-top: 10px;
+}
+
+.footer__card-two ol li a{
+    color: white;
+    font-size: 13px;
+}
+
+.footer__card-two ol li a:hover {
+    color: #ff4d68;
+}
+
+.footer__card-three h4 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.footer__card-three form {
+    margin-top: 1.5rem;
+}
+
+.footer__card-three div {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 10px;
+}
